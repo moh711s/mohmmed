@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+
+    <link rel="stylesheet" href="styl.css">
+    <title>Mov</title>
+</head>
+<body>
+   
+    <section id="content">
+        <main id="navbar">
+            <div id="nav-left">
+                <a href="#">كون السينما</a>
+            </div>
+            <div id="nav-center">
+                <a href="#">الرئيسيه</a>
+                <a href="#">الافلام</a>
+                <a href="#">المسلسلات</a>
+                <a href="#">البرامج الصيفيه</a>
+                <a href="#">اتصل بنا</a>
+                <a href="#">من نحن؟</a>
+            </div>
+            <div id="nav-raigt">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+                    <select id="select">
+                        <option >En</option>
+                        <option >Ar</option>
+                    </select>
+                    <button>تسجيل الدخول</button>
+            </div>
+        </main>
+     <div id="center">
+         <h2>كون السينما</h2>
+         <h1>عدد غير محدود <span>من الافلام</span> و المسلسلات والبرامج الصيفيه
+          <br>   والمزيد...</h1>
+         <div id="div-p">
+             <p>90FPS</p>
+             <p>عالية الدقة</p>
+         </div>
+         <br>
+         <button onclick="document.location='#min-poster'">شاهد الان</button>
+     </div>
+    </section>
+
+    <section id="min-poster">
+
+<div id="title">
+    <div id="title-left">
+        <p>استمتع في </p>
+        <h1> افضل الافلام </h1>
+    </div>
+    <div id="title-r">
+    <a href="#">الاكثر مشاهده</a>
+    <a href="#">الاكثر تفاعلا</a>
+    <a href="#">الاكثر تقيما</a>
+</div>
+</div>
+
+<div id="card">
+    <div id="poster">
+        <img src="img/عمهم.jpg" width="190px" height="220px" alt="###">
+    </div>
+    <div id="datalest">
+        <h1>عمهم</h1>
+        <p>عمهم هو فيلم كوميدي مصري 
+          <br>  عرض عام 2022، 
+          <br>  من إخراج حسين المنباوي 
+          <br>  وإنتاج أحمد السبكي، وبطولة محمد إمام</p>
+          <div id="div-star">
+              <input type="radio" id="star5">
+              <label  for="star5"></label>
+              <input type="radio" id="star4">
+              <label for="star4"></label>
+              <input type="radio" id="star3">
+              <label for="star3"></label>
+              <input type="radio" id="star2">
+              <label for="star2"></label>
+              <input type="radio" id="star1">
+              <label onclick="document.getElementById('text').innerHTML='سيئ'" for="star1"></label>
+              <P id="text"></P>
+          </div><br>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضل 
+          </button>
+
+    </div>
+</div>
+
+<div id="card">
+    <div id="poster">
+        <img src="img/البعبع.jpg" width="190px" height="220px" alt="###">
+    </div>
+    <div id="datalest">
+        <h1>البعبع</h1>
+        <p>البعبع فيلم كوميدي مصري من إنتاج سنة 2023، 
+        <br> الفيلم من إخراج حسين المنباوي،
+          <br>   وتأليف إيهاب بليبل، 
+          <br>   وإنتاج سينرجي للإنتاج الفني</p>
+          <div id="div-star">
+              <input type="radio" id="star5">
+              <label for="star5"></label>
+              <input type="radio" id="star4">
+              <label for="star4"></label>
+              <input type="radio" id="star3">
+              <label for="star3"></label>
+              <input type="radio" id="star2">
+              <label for="star2"></label>
+              <input type="radio" id="star1">
+              <label for="star1"></label>
+          </div><br>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضل 
+          </button>
+
+    </div>
+</div>
+
+<div id="card">
+    <div id="poster">
+        <img src="img/وقفةرجاله.jpg" width="190px" height="220px" alt="###">
+    </div>
+    <div id="datalest">
+        <h1>وقفة رجالة</h1>
+        <p>وقفة رجالة: فيلم كوميدي مصري من إنتاج سنة 2021.
+      <br>  الفيلم من إخراج أحمد الجندي،
+          <br>    وتأليف هيثم دبور، وإنتاج تامر مرسي</p>
+          <div id="div-star">
+              <input type="radio" id="star5">
+              <label for="star5"></label>
+              <input type="radio" id="star4">
+              <label for="star4"></label>
+              <input type="radio" id="star3">
+              <label for="star3"></label>
+              <input type="radio" id="star2">
+              <label for="star2"></label>
+              <input type="radio" id="star1">
+              <label for="star1"></label>
+          </div><br>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضل 
+          </button>
+
+    </div>
+</div>
+
+<div id="card">
+    <div id="poster">
+        <img src="img/ع الزيرو.jpg" width="190px" height="220px" alt="###">
+    </div>
+    <div id="datalest">
+        <h1> ع الزيرو</h1>
+        <p>ع الزيرو في إطار من الحركة والتشويق، 
+       <br> تدور أحداث الفيلم حول (حمزة) الملقب بـ(دراجون)،
+           <br>  ولديه طفل مريض يسعى لعلاجه لكن حالته المادية متعثرة</p>
+          <div id="div-star">
+              <input type="radio" id="star5">
+              <label for="star5"></label>
+              <input type="radio" id="star4">
+              <label for="star4"></label>
+              <input type="radio" id="star3">
+              <label for="star3"></label>
+              <input type="radio" id="star2">
+              <label for="star2"></label>
+              <input type="radio" id="star1">
+              <label for="star1"></label>
+          </div><br>
+          <button>
+            <span class="material-symbols-outlined">
+                favorite
+                </span>
+                اضف الى المفضل 
+          </button>
+
+    </div>
+</div>
+
+    </section>
+
+    <section id="info">
+    <div id="logo-dif">
+        <a href="#">كون السينما</a>
+    </div>
+    <div id="info-r">
+        <a href="">سياسه الاستخدام</a>
+        <a href="">التسعير</a>
+        <a href="">فيلم</a>
+        <a href="">برنامج تلفزيوني</a>
+        <input type="search" placeholder="ابحث عن فلم...">
+    </div>
+    </section>
+
+</body>
+</html>
